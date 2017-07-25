@@ -1,0 +1,47 @@
+h1{
+	margin: 0;
+	font-family: 'Chewy', cursive;
+	color: #9FE465;
+	text-transform: uppercase;
+	word-wrap: break-word;
+	text-align: center;
+}
+#contenedor{
+	margin:auto;
+	width: 800px;
+	height: 900px;
+	display: flex;
+	flex-flow: row wrap;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.espacio-negro{
+	background-color: #000000;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;	
+}
+.espacio-blanco{
+	background-color: #EFECEC;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+}
+.jugador1{
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+	margin: 15px; 
+	background-color: #F93E3E;
+}
+.jugador2{
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+	margin: 15px; 
+	background-color: #5AB2E8;
+}
+.seleccion{
+	border:2px solid black;
+	transform: scale(1.2,1.2);
+}
